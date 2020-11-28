@@ -4,7 +4,7 @@ import Navibar from './Component/Navibar';
 import Awal from './Component/Awal';
 import Interior from './Component/Interior';
 import Exterior from './Component/Exterior';
-import Tentang from './Tentang';
+import Tentang from './Component/Tentang';
 
 function App() {
   return (
