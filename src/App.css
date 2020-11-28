@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-p, .btn {
+.btn {
   font-size: min(max(14px, 4vw),16px);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yatra One', cursive;
   font-weight: 300;
 }
 
@@ -16,20 +16,19 @@ h1 {
 
 h2 {
   font-size: min(max(26px, 4vw),36px);
-  margin-bottom: 10%;
   font-family: 'Yatra One', cursive;
   font-weight: 700;
 }
 
 h3 {
   font-size: min(max(22px, 4vw),28px);
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Yatra One', cursive;
   font-weight: 400;
 }
 
 h4 {
   font-size: min(max(18px, 4vw),20px);
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Yatra One', cursive;
   font-weight: 300;
 }
 
@@ -40,6 +39,11 @@ h4 {
   height: 71px;
   visibility: hidden;
 }
-.row {
-  margin-bottom: 5%;
+
+.jeneng {
+  font-family: 'Yatra One', cursive;
+}
+
+.jeneng.navbar-brand {
+  font-size: 1.75rem;
 }

@@ -3,13 +3,17 @@ import './App.css';
 import Navibar from './Component/Navibar';
 import Awal from './Component/Awal';
 import Interior from './Component/Interior';
+import Exterior from './Component/Exterior';
+import Tentang from './Tentang';
 
 function App() {
   return (
     <div className="App">
       <Navibar/>
       <Awal/>
+      <Exterior/>
       <Interior/>
+      <Tentang/>
     </div>
   );
 }

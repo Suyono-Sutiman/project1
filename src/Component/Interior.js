@@ -1,28 +1,20 @@
 import React from 'react';
-import {Col, Container, Row} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
+import Dapur from './Dapur';
 import Keluarga from './Keluarga';
 import Tamu from './Tamu';
+import Tidur from './Tidur';
+import Mandi from './Mandi';
 
 function Interior () {
     return (
-        <Container>
+        <Container id='interior' style={{textAlign:'left'}} >
             <h2>Interior</h2>
-            <Row>
-                <Col xs={12} md={6} >
-                <Keluarga/>
-                </Col>
-                <Col xs={12} md={6} >
-                <Tamu/>
-                </Col>
-            </Row>
-            <Row>
-                <Col xs={12} md={6} >
-                <Tamu/>
-                </Col>
-                <Col xs={12} md={6} >
-                <Tamu/>
-                </Col>
-            </Row>
+            <Keluarga/>
+            <Tamu/>
+            <Tidur/>
+            <Dapur/>
+            <Mandi/>
         </Container>
     )
 }

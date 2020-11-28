@@ -21,11 +21,11 @@ function awal () {
                             <Col><h1>Design</h1></Col>
                         </Row>
                         <Row style={{marginBottom:10}}>
-                            <Col><Button variant="outline-primary">Lihat Exterior</Button></Col>
-                            <Col><Button variant="outline-primary">Lihat Interior</Button></Col>
+                            <Col><Button href='#exterior' variant="outline-primary">Lihat Exterior</Button></Col>
+                            <Col><Button href='#interior' variant="outline-primary">Lihat Interior</Button></Col>
                         </Row>
                         <Row>
-                            <Col><Button variant="outline-primary">Konsultasi</Button></Col>
+                            <Col><Button href='https://wa.me/6281219013721' variant="outline-primary">Konsultasi</Button></Col>
                         </Row>
                     </Col>
                 </Row>

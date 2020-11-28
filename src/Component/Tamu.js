@@ -1,33 +1,38 @@
 import React from 'react';
 import {Col, Container, Row, Image} from 'react-bootstrap';
-import keluarga1 from '../Gambar/undraw_at_home_octe.svg';
+import satu from '../Gambar/pexels-adrien-olichon-3534755.jpg';
+import dua from '../Gambar/pexels-david-bartus-915674.jpg';
+import tiga from '../Gambar/pexels-ingo-joseph-9816.jpg';
+import empat from '../Gambar/pexels-riccardo-bertolo-4245826.jpg';
 
 function Tamu () {
     return (
-        <Container>
+        <Container id='tamu' >
             <h4>Ruang Tamu</h4>
             <Row>
-                <Col>
-                <Image src={keluarga1} fluid />
+                <Col xs={12} md={6} lg={3} >
+                <Image src={satu} fluid style={{padding:'15px 0px'}} />
+                <Image src={dua} fluid style={{padding:'15px 0px'}} />
+                <Image src={tiga} fluid style={{padding:'15px 0px'}} />
+                <Image src={empat} fluid style={{padding:'15px 0px'}} />
                 </Col>
-                <Col>
-                <Image src={keluarga1} fluid />
+                <Col xs={12} md={6} lg={3} >
+                <Image src={empat} fluid style={{padding:'15px 0px'}} />
+                <Image src={tiga} fluid style={{padding:'15px 0px'}} />
+                <Image src={dua} fluid style={{padding:'15px 0px'}} />
+                <Image src={satu} fluid style={{padding:'15px 0px'}} />
                 </Col>
-            </Row>
-            <Row>
-                <Col>
-                <Image src={keluarga1} fluid />
+                <Col xs={12} md={6} lg={3} >
+                <Image src={empat} fluid style={{padding:'15px 0px'}} />
+                <Image src={tiga} fluid style={{padding:'15px 0px'}} />
+                <Image src={dua} fluid style={{padding:'15px 0px'}} />
+                <Image src={satu} fluid style={{padding:'15px 0px'}} />
                 </Col>
-                <Col>
-                <Image src={keluarga1} fluid />
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                <Image src={keluarga1} fluid />
-                </Col>
-                <Col>
-                <Image src={keluarga1} fluid />
+                <Col xs={12} md={6} lg={3} >
+                <Image src={empat} fluid style={{padding:'15px 0px'}} />
+                <Image src={tiga} fluid style={{padding:'15px 0px'}} />
+                <Image src={dua} fluid style={{padding:'15px 0px'}} />
+                <Image src={satu} fluid style={{padding:'15px 0px'}} />
                 </Col>
             </Row>
         </Container>
