@@ -41,11 +41,11 @@ function Tentang () {
                     </Row>
                     <Row>
                         <Col>Sabtu</Col>
-                        <Col>08:00 - 18:00</Col>
+                        <Col>08:00 - 15:00</Col>
                     </Row>
                     <Row>
                         <Col>Minggu</Col>
-                        <Col>08:00 - 18:00</Col>
+                        <Col>08:00 - 15:00</Col>
                     </Row>
                 </Col>
             </Row>

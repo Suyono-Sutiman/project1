@@ -47,3 +47,24 @@ h4 {
 .jeneng.navbar-brand {
   font-size: 1.75rem;
 }
+.cp {
+  width: min(max(14px, 4vw),16px);
+}
+.gamb {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.gamb h4 {
+  padding-left: 1.25rem;
+}
+.colgb {
+  padding: 5px;
+}
+.gb {
+  padding: 5px;
+}
+.kotak {
+  background-color: #e9ecef;
+  margin-bottom: 5%;
+}

@@ -5,6 +5,7 @@ import Awal from './Component/Awal';
 import Interior from './Component/Interior';
 import Exterior from './Component/Exterior';
 import Tentang from './Component/Tentang';
+import Kontak from './Component/Kontak';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Exterior/>
       <Interior/>
       <Tentang/>
+      <Kontak/>
     </div>
   );
 }
