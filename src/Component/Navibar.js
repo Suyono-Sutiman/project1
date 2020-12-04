@@ -13,7 +13,7 @@ function Navibar () {
             height="45"
             className="d-inline-block align-top"
             />{' '}
-        Enterprise
+        Interprice
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className='jeneng'>

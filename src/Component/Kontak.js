@@ -26,8 +26,8 @@ function Kontak () {
                     <Row>
                         <Col><hr/></Col>
                         <Col><Button
-                        href='mailto:JJenterprise@gmail.com'
-                        variant="outline-primary">JJenterprise@gmail.com</Button></Col>
+                        href='mailto:jj.interprice@gmail.com'
+                        variant="outline-primary">jj.interprice@gmail.com</Button></Col>
                     </Row>
                     <Row>
                         <Col><Button
